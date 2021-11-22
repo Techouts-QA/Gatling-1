@@ -1,0 +1,10 @@
+{
+  "simulation": "simulations.RampUpUsersPerSec",
+  "simulationId": "rampupuserspersec",
+  "start": 1637228821289,
+  "description": "ramp users",
+  "scenarios": ["get data from json responce"],
+  "assertions": [
+
+  ]
+}

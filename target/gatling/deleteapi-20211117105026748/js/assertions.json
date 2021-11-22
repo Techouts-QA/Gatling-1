@@ -1,0 +1,10 @@
+{
+  "simulation": "simulations.DeleteAPI",
+  "simulationId": "deleteapi",
+  "start": 1637146226748,
+  "description": "Delete api request",
+  "scenarios": ["get use"],
+  "assertions": [
+
+  ]
+}

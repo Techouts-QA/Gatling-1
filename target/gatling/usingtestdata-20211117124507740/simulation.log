@@ -1,0 +1,61 @@
+RUN	simulations.UsingTestData	usingtestdata	1637153107740	Using CSV	3.6.1
+USER	get data from json responce	START	1637153109688
+USER	get data from json responce	START	1637153109688
+USER	get data from json responce	START	1637153109688
+USER	get data from json responce	START	1637153109688
+USER	get data from json responce	START	1637153109688
+USER	get data from json responce	START	1637153109688
+USER	get data from json responce	START	1637153109688
+USER	get data from json responce	START	1637153109688
+USER	get data from json responce	START	1637153109688
+USER	get data from json responce	START	1637153109688
+REQUEST		Get single user req	1637153109788	1637153110167	OK	 
+REQUEST		Get single user req	1637153109788	1637153110252	KO	jsonPath($.data.name).find.is(prankurk00099), but actually found nothing
+REQUEST		Get single user req	1637153109788	1637153110361	OK	 
+REQUEST		Get single user req	1637153109791	1637153110458	KO	jsonPath($.data.name).find.is(prankurk00099), but actually found nothing
+REQUEST		Get single user req	1637153109788	1637153110555	KO	jsonPath($.data.name).find.is(prankurk00099), but actually found nothing
+REQUEST		Get single user req	1637153109788	1637153110663	OK	 
+REQUEST		Get single user req	1637153109788	1637153110758	OK	 
+REQUEST		Get single user req	1637153109788	1637153110851	KO	jsonPath($.data.name).find.is(prankurk00099), but actually found nothing
+REQUEST		Get single user req	1637153109788	1637153110958	OK	 
+REQUEST		Get single user req	1637153109788	1637153111064	OK	 
+REQUEST		Get single user req	1637153110271	1637153111167	OK	 
+REQUEST		Get single user req	1637153110260	1637153111453	OK	 
+REQUEST		Get single user req	1637153110365	1637153111453	KO	jsonPath($.data.name).find.is(prankurk00099), but actually found nothing
+REQUEST		Get single user req	1637153110462	1637153111481	OK	 
+REQUEST		Get single user req	1637153110559	1637153111566	OK	 
+REQUEST		Get single user req	1637153110666	1637153111661	KO	jsonPath($.data.name).find.is(prankurk00099), but actually found nothing
+REQUEST		Get single user req	1637153110762	1637153111759	OK	 
+REQUEST		Get single user req	1637153110854	1637153111859	OK	 
+REQUEST		Get single user req	1637153110962	1637153111948	KO	jsonPath($.data.name).find.is(prankurk00099), but actually found nothing
+REQUEST		Get single user req	1637153111068	1637153112067	OK	 
+REQUEST		Get single user req	1637153111170	1637153112165	OK	 
+REQUEST		Get single user req	1637153111455	1637153112255	KO	jsonPath($.data.name).find.is(prankurk00099), but actually found nothing
+REQUEST		Get single user req	1637153111455	1637153112367	OK	 
+REQUEST		Get single user req	1637153111483	1637153112462	OK	 
+REQUEST		Get single user req	1637153111568	1637153112556	KO	jsonPath($.data.name).find.is(prankurk00099), but actually found nothing
+REQUEST		Get single user req	1637153111665	1637153112658	OK	 
+REQUEST		Get single user req	1637153111764	1637153112755	OK	 
+REQUEST		Get single user req	1637153111862	1637153112849	KO	jsonPath($.data.name).find.is(prankurk00099), but actually found nothing
+REQUEST		Get single user req	1637153111951	1637153112959	OK	 
+REQUEST		Get single user req	1637153112072	1637153113058	OK	 
+REQUEST		Get single user req	1637153112167	1637153113165	KO	jsonPath($.data.name).find.is(prankurk00099), but actually found nothing
+USER	get data from json responce	END	1637153113178
+REQUEST		Get single user req	1637153112260	1637153113268	OK	 
+USER	get data from json responce	END	1637153113271
+REQUEST		Get single user req	1637153112370	1637153113381	OK	 
+USER	get data from json responce	END	1637153113382
+REQUEST		Get single user req	1637153112465	1637153113454	KO	jsonPath($.data.name).find.is(prankurk00099), but actually found nothing
+USER	get data from json responce	END	1637153113457
+REQUEST		Get single user req	1637153112558	1637153113565	OK	 
+USER	get data from json responce	END	1637153113567
+REQUEST		Get single user req	1637153112660	1637153113655	OK	 
+USER	get data from json responce	END	1637153113661
+REQUEST		Get single user req	1637153112758	1637153113749	KO	jsonPath($.data.name).find.is(prankurk00099), but actually found nothing
+USER	get data from json responce	END	1637153113752
+REQUEST		Get single user req	1637153112852	1637153113858	OK	 
+USER	get data from json responce	END	1637153113862
+REQUEST		Get single user req	1637153112961	1637153113971	OK	 
+USER	get data from json responce	END	1637153113974
+REQUEST		Get single user req	1637153113061	1637153114055	KO	jsonPath($.data.name).find.is(prankurk00099), but actually found nothing
+USER	get data from json responce	END	1637153114059

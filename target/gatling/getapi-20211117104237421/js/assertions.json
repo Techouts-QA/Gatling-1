@@ -1,0 +1,10 @@
+{
+  "simulation": "simulations.GetAPI",
+  "simulationId": "getapi",
+  "start": 1637145757421,
+  "description": "Get api request",
+  "scenarios": ["get use"],
+  "assertions": [
+
+  ]
+}

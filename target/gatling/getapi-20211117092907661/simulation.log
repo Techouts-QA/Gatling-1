@@ -1,0 +1,26 @@
+RUN	simulations.GetAPI	getapi	1637141347661	Techouts_Gatling_POC	3.6.1
+REQUEST		get user request	1637141350817	1637141350881	KO	j.n.UnknownHostException: reqres.inapi
+REQUEST		get user request	1637141350817	1637141350881	KO	j.n.UnknownHostException: reqres.inapi
+REQUEST		get user request	1637141350817	1637141350881	KO	j.n.UnknownHostException: reqres.inapi
+REQUEST		get user request	1637141350817	1637141350881	KO	j.n.UnknownHostException: reqres.inapi
+REQUEST		get user request	1637141350817	1637141350881	KO	j.n.UnknownHostException: reqres.inapi
+REQUEST		get user request	1637141350817	1637141350881	KO	j.n.UnknownHostException: reqres.inapi
+REQUEST		get user request	1637141350817	1637141350881	KO	j.n.UnknownHostException: reqres.inapi
+REQUEST		get user request	1637141350817	1637141350881	KO	j.n.UnknownHostException: reqres.inapi
+REQUEST		get user request	1637141350817	1637141350881	KO	j.n.UnknownHostException: reqres.inapi
+USER	get use	START	1637141350701
+REQUEST		get user request	1637141350817	1637141350881	KO	j.n.UnknownHostException: reqres.inapi
+USER	get use	START	1637141350702
+USER	get use	START	1637141350702
+USER	get use	START	1637141350702
+USER	get use	START	1637141350701
+USER	get use	END	1637141350914
+USER	get use	END	1637141350914
+USER	get use	END	1637141350914
+USER	get use	END	1637141350914
+USER	get use	END	1637141350914
+USER	get use	END	1637141350915
+USER	get use	END	1637141350918
+USER	get use	END	1637141350919
+USER	get use	END	1637141350920
+USER	get use	END	1637141350921

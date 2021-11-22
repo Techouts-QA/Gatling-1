@@ -1,0 +1,10 @@
+{
+  "simulation": "simulations.GetAPI",
+  "simulationId": "getapi",
+  "start": 1637141606392,
+  "description": "Techouts_Gatling_POC",
+  "scenarios": ["get use"],
+  "assertions": [
+
+  ]
+}

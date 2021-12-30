@@ -25,5 +25,4 @@ class ExtractDataFromJsonResponce extends Simulation {
         .check(jsonPath("$.data.gender").is("male")))
   // setup
   setUp(scn.inject(atOnceUsers(10))).protocols(httpConfig)
-
 }

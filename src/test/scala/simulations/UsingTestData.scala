@@ -12,11 +12,11 @@ class UsingTestData extends Simulation {
     .header("Authorization", value = "Bearer b365b14979674e301de97368df5a03dd01a4fb347d9a849167916a198e534152")
 
   //testdata declaration
-  val csvFeeder = csv(".\\src\\test\\resources\\data\\users.csv").circular   //shuffle, random, queue
+  val csvFeeder = csv(".\\src\\test\\resources\\data\\users.csv").circular  //shuffle, random, queue
 
   //def
   def getUser()={
-    repeat(4){
+    repeat(3){
       feed(csvFeeder)
       .exec(http("Get single user req")
         .get("/public/v1/users/${userId}")
@@ -29,7 +29,11 @@ class UsingTestData extends Simulation {
 
   // scenario
   val scn = scenario("get data from json responce")
+  feed(csvFeeder)
     .exec(getUser())
+
   // setup
-  setUp(scn.inject(atOnceUsers(10))).protocols(httpConfig)
+  setUp(scn.inject(nothingFor(4),
+      atOnceUsers(10))
+    .protocols(httpConfig))
 }

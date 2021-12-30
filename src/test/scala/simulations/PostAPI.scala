@@ -20,8 +20,6 @@ class PostAPI extends Simulation {
       .header("content-type", value = "application.json")
       .check(status is 201)
     )
-
-
   // setup
   setUp(scn.inject(atOnceUsers(10))).protocols(httpConfig)
 

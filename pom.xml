@@ -40,6 +40,13 @@
         <groupId>io.gatling</groupId>
         <artifactId>gatling-maven-plugin</artifactId>
         <version>${gatling-maven-plugin.version}</version>
+
+        <configuration>
+
+         <includes>
+
+          </includes>
+        </configuration>
       </plugin>
     </plugins>
   </build>

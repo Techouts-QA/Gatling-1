@@ -1,28 +1,21 @@
-package simulations
+package xml
 
-import io.gatling.core.scenario.Simulation
 import io.gatling.core.Predef._
+import io.gatling.core.scenario.Simulation
 import io.gatling.http.Predef._
-import scala.concurrent.duration.DurationInt
 
-class LoopRequest extends Simulation {
+class DeleteAPI extends Simulation {
 
   // http config
   val httpConfig =  http.baseUrl("https://reqres.in")
     .header("Accept", value = "application/json")
     .header("content-type", value = "application.json")
 
-  //loop function
-  def userReq()={
-    repeat(2){
-      exec(http("get a user request")
-        .get("/api/users/2")
-        .check(status is 200))
-    }
-  }
   // scenario
   val scn = scenario("get use")
-    .exec(userReq()) //it will execute 2 times
+    .exec(http("get user request")
+      .delete("/api/users/2")
+      .check(status.in(200 to 205)))
 
   // setup
   setUp(scn.inject(atOnceUsers(10))).protocols(httpConfig)
